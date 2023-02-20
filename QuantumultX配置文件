@@ -1,7 +1,7 @@
 # MengRain - Configuration  （QuantumultX）
-# 作者:MengRain
+# 作者:MengRain、Coldvvater
 # 写于2022年8月8日
-# 最后一次更新于2022年11月17日
+# 最后一次更新于2023年02月20日
 # 我的TG频道：https://t.me/mengyulianmian
 # 我的TG聊群：https://t.me/mengdelaochao
 
@@ -71,7 +71,7 @@ server=8.8.8.8
 #
 [policy]
 url-latency-benchmark=国际网络（自动选择节点）, server-tag-regex=.*, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png
-static=ASN, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Area.png
+static=ASN, direct, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Area.png
 url-latency-benchmark=Netflix, server-tag-regex=新加坡, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
 url-latency-benchmark=Disiney, server-tag-regex=新加坡|香港, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney.png
 url-latency-benchmark=HK 香港, server-tag-regex=香港|🇭🇰|HK|湾仔|港仔|九龙, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
@@ -155,9 +155,10 @@ https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=Boxjs, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-import-rewrite.snippet, tag=Sample, enabled=true
 https://limbopro.com/Adblock4limbo.conf, tag=毒奶特供, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Applet/QuanX.conf, tag=微信小程序去广告@ddgksf2013, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite, tag=知乎去广告及体验增强@blackmatrix7, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.qxrewrite, tag=开屏去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt, tag=张军去广告, update-interval=172800, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Applet.conf, tag=微信小程序去广告@ddgksf2013, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.snippet, tag=知乎去广告及体验增强@blackmatrix7, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/StartUp.conf, tag=开屏去广告, update-interval=172800, opt-parser=false, enabled=true
 
 
 
